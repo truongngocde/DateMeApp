@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".RequestProfileActivity">
+
+    <ImageView
+        android:id="@+id/RequestProfileImage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:scaleX="1.4"
+        android:scaleY="1.15"/>
+
+    <include layout="@layout/app_bar_layout4"
+        android:id="@+id/RequestProfile_ToolBar"/>
+
+
+    <ImageView
+        android:id="@+id/RequestProfileFriendsIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/RequestProfileImage"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/friends"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/RequestProfileTotalFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RequestProfileImage"
+        android:layout_toRightOf="@id/RequestProfileFriendsIcon"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/RequestProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="38sp"
+        android:layout_below="@id/RequestProfileTotalFriend"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/RequestProfileStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RequestProfileName"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/RequestProfileConfirmRequestBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="20dp"
+        android:padding="10dp"
+        android:text="Đồng ý kết bạn"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/RequestProfileRejectRequestBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="#F44336"
+        android:padding="10dp"
+        android:text="Từ chối yêu cầu kết bạn"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="18dp" />
+
+</RelativeLayout>

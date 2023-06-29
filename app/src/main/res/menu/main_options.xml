@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/AccountSetting_id"
+        android:title="Cài đặt tài khoản"/>
+    <item
+        android:id="@+id/DeleteAccount_id"
+        android:title="Xóa tài khoản"/>
+    <item
+        android:id="@+id/Logout_id"
+        android:title="Đăng xuất"/>
+
+</menu>

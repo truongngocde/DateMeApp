@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chooseloginimg"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="Muốn hẹn hò hãy đến với DateMe"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/GoToRegisterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#ED2C2C"
+        android:text="Đăng ký"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        app:cornerRadius="20dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/GoToLoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/GoToRegisterBtn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFF"
+        android:text="Đăng nhập"
+        android:textAllCaps="true"
+        app:cornerRadius="20dp"
+        android:textSize="18dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>
