@@ -11,10 +11,11 @@
         android:id="@+id/UserProfileImage"
         android:layout_width="match_parent"
         android:layout_height="320dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
         android:scaleX="1.4"
-        android:scaleY="1.15"
-        android:layout_alignParentTop="true"/>
+        android:scaleY="1.15" />
 
     <ImageView
         android:id="@+id/UserProfileStar"
@@ -85,7 +86,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#4CAF50"
+        android:backgroundTint="#4CAF50"
         app:cornerRadius="20dp"
         android:text="Kết bạn"
         android:textColor="#FFF"
@@ -104,7 +105,7 @@
         android:layout_centerHorizontal="true"
         app:cornerRadius="20dp"
         android:text="Hủy yêu cầu"
-        android:background="#F44336"
+        android:backgroundTint="#F44336"
         android:textColor="#FFF"
         android:textAllCaps="true"
         android:textSize="18dp"
@@ -119,7 +120,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#F44336"
+        android:backgroundTint="#F44336"
         app:cornerRadius="20dp"
         android:text="Hủy kết bạn"
         android:textColor="#FFF"
@@ -136,30 +137,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button4"
-        android:text="Confirm friend request"
-        android:textColor="@color/colorPrimary"
+        android:backgroundTint="#4CAF50"
+        app:cornerRadius="20dp"
+        android:text="Đồng ý"
+        android:textColor="#fff"
         android:textAllCaps="true"
         android:textSize="18dp"
         android:padding="10dp"
         android:layout_marginBottom="105dp"
         android:visibility="gone"/>
-
-
     <Button
         android:id="@+id/UserProfileRejectRequestBtn"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button3"
-        android:text="Reject friend request"
+        android:backgroundTint="#F44336"
+        app:cornerRadius="20dp"
+        android:text="Từ chối"
         android:textColor="#FFF"
         android:textAllCaps="true"
         android:textSize="18dp"
         android:padding="10dp"
         android:layout_marginBottom="40dp"
         android:visibility="gone"/>
-
-
 </RelativeLayout>

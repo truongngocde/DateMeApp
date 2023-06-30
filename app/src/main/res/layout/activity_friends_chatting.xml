@@ -6,23 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".FriendsChattingActivity">
 
-<!--    <include layout="@layout/app_bar_layout"-->
-<!--        android:id="@+id/FriendsChatting_TooBar"/>-->
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:background="@drawable/backg"/>
-    <!--        android:layout_below="@id/FriendsChatting_TooBar"-->
+
 
     <ListView
         android:id="@+id/Chatting_ListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="60dp" />
-    <!--        android:layout_below="@id/FriendsChatting_TooBar"-->
+
 
     <LinearLayout
         android:id="@+id/SendContainer"
@@ -40,15 +36,15 @@
             android:background="@android:color/transparent"
             android:layout_marginLeft="5dp"/>
 
-        <ImageButton
-            android:id="@+id/AddRecordBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/record"
-            android:layout_gravity="bottom"
-            android:background="@android:color/transparent"
-            android:layout_marginLeft="2dp"
-            android:layout_marginBottom="2dp"/>
+<!--        <ImageButton-->
+<!--            android:id="@+id/AddRecordBtn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/record"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:layout_marginLeft="2dp"-->
+<!--            android:layout_marginBottom="2dp"/>-->
 
         <EditText
             android:id="@+id/messageEdit"

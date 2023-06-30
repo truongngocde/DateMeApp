@@ -138,7 +138,7 @@ public class FriendsChattingActivity extends AppCompatActivity {
         //define xml components
         chatting_listView=(ListView)findViewById(R.id.Chatting_ListView);
         SendImageBtn=(ImageButton)findViewById(R.id.SendImageBtn);
-        AddRecordBtn = (ImageButton)findViewById(R.id.AddRecordBtn);
+        //AddRecordBtn = (ImageButton)findViewById(R.id.AddRecordBtn);
         MessageEdit = (EditText)findViewById(R.id.messageEdit);
         SendMessageBtn = (ImageButton)findViewById(R.id.sendMessageBtn);
         RecordContainer = (LinearLayout)findViewById(R.id.RecordContainer);
@@ -184,7 +184,7 @@ public class FriendsChattingActivity extends AppCompatActivity {
 
 
         //on click to Add record button
-        AddRecordBtn.setOnClickListener(new View.OnClickListener() {
+        /*AddRecordBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mediaPlayer.stop();
@@ -200,7 +200,7 @@ public class FriendsChattingActivity extends AppCompatActivity {
 
                 if(checkPermission()) startRecording();
             }
-        });
+        });*/
 
 
         //on click to cancel record Text view

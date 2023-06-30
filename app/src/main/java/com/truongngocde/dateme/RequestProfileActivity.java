@@ -168,9 +168,7 @@ public class RequestProfileActivity extends AppCompatActivity {
                 });
             }
         });
-
-
-
+        
     }
 
 
@@ -242,11 +240,11 @@ public class RequestProfileActivity extends AppCompatActivity {
                 if(dataSnapshot.exists()){
                     for(DataSnapshot Snapshot: dataSnapshot.getChildren()){numOfFriends++;}
 
-                    if(numOfFriends==1)UserTotalFriendsView.setText(" "+String.valueOf(numOfFriends)+" friend || "+String.valueOf(numbOfMutualFriends)+" Mutual friends");
-                    else UserTotalFriendsView.setText(" "+String.valueOf(numOfFriends)+" friends || "+String.valueOf(numbOfMutualFriends)+" Mutual friends");
+                    if(numOfFriends==1)UserTotalFriendsView.setText(" "+String.valueOf(numOfFriends)+" bạn bè || "+String.valueOf(numbOfMutualFriends)+" bạn chung");
+                    else UserTotalFriendsView.setText(" "+String.valueOf(numOfFriends)+" bạn bè || "+String.valueOf(numbOfMutualFriends)+" bạn chung");
                 }
                 else{
-                    UserTotalFriendsView.setText(" 0 friends || "+String.valueOf(numbOfMutualFriends)+ " Mutual friends");
+                    UserTotalFriendsView.setText(" 0 bạn bè || "+String.valueOf(numbOfMutualFriends)+ " bạn chung");
                 }
             }
             @Override

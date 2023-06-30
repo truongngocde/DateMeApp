@@ -57,7 +57,7 @@ public class AccountSettingActivity extends AppCompatActivity {
         //tool bar
         mToolBar=(Toolbar)findViewById(R.id.AccountSetting_ToolBar);
         //setSupportActionBar(mToolBar);
-        getSupportActionBar().setTitle("Account Setting");
+        getSupportActionBar().setTitle("Cài đặt");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //define xml components

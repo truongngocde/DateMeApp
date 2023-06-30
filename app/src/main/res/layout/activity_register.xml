@@ -137,8 +137,8 @@
         android:layout_below="@id/RegisterConfirmPasswordEditt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="@drawable/button3"
-        android:padding="15dp"
+        android:backgroundTint="#ED2C2C"
+        app:cornerRadius="20dp"
         android:text="Đăng ký"
         android:textColor="#FFF"
         android:textSize="18dp" />
@@ -163,7 +163,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:background="#00000000"
-        android:padding="15dp"
         android:text="Đăng nhập ngay"
         android:textColor="#000"
         android:textSize="15dp" />

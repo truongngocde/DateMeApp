@@ -54,12 +54,12 @@
     <Button
         android:id="@+id/changeStatusBtn"
         android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_above="@id/changeImageBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="18dp"
-        android:background="@drawable/button4"
-
+        android:backgroundTint="#FF5722"
+        app:cornerRadius="20dp"
         android:padding="10dp"
         android:text="Cập nhật status"
         android:textAllCaps="true"
@@ -69,12 +69,13 @@
 
     <Button
         android:id="@+id/changeImageBtn"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="55dp"
-        android:background="@drawable/button3"
+        android:backgroundTint="#4CAF50"
+        app:cornerRadius="20dp"
         android:padding="10dp"
         android:text="Đổi avatar"
         android:textAllCaps="true"

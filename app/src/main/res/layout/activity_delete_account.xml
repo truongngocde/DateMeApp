@@ -57,6 +57,7 @@
             android:layout_below="@id/DeleteEditt"
             android:layout_gravity="center"
             android:backgroundTint="#F44336"
+            app:cornerRadius="20dp"
             android:text="Delete"
             android:textAllCaps="true"
             android:textSize="18dp"

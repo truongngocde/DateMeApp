@@ -49,7 +49,7 @@ public class AccountStatusActivity extends AppCompatActivity {
         mToolBar=(Toolbar)findViewById(R.id.StatusToolBar);
         //setSupportActionBar(mToolBar);
         getSupportActionBar().setTitle("\n" +
-                "Tình trạng tài khoản");
+                "Trạng thái");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //refresh status

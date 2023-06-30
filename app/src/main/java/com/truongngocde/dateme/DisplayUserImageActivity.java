@@ -29,8 +29,7 @@ public class DisplayUserImageActivity extends AppCompatActivity {
         //toolbar
         mToolBar=(Toolbar)findViewById(R.id.UserImageToolBar);
         //setSupportActionBar(mToolBar);
-        getSupportActionBar().setTitle("\n" +
-                "Ảnh hồ sơ");
+        getSupportActionBar().setTitle("Ảnh hồ sơ");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //define xml component

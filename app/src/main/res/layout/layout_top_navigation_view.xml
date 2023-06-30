@@ -9,9 +9,10 @@
         android:id="@+id/topNavViewBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:background="@drawable/rounded_corner_layout"
         app:menu="@menu/top_navigation_toolbar"/>
 </LinearLayout>
